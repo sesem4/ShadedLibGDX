@@ -1,3 +1,3 @@
 # ShadedLibGDX
 
-Sesem4 version of ShadedLibGDX
+Sesem4 version of ShadedLibGDX.
