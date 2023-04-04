@@ -6,7 +6,7 @@
 
     <groupId>dk.sdu.sesem4</groupId>
     <artifactId>shadedlibgdx</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packaging>jar</packaging>
     <name>shadedlibgdx</name>
 
@@ -49,6 +49,11 @@
         <dependency>
             <groupId>com.badlogicgames.gdx</groupId>
             <artifactId>gdx-backend-lwjgl3</artifactId>
+            <version>${libGDX.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.badlogicgames.gdx</groupId>
+            <artifactId>gdx-backend-headless</artifactId>
             <version>${libGDX.version}</version>
         </dependency>
         <dependency>
@@ -125,7 +130,7 @@
                                     <artifact>
                                         <groupId>dk.sdu.sesem4</groupId>
                                         <artifactId>shadedlibgdx</artifactId>
-                                        <version>1.0.3</version>
+                                        <version>1.0.4</version>
                                     </artifact>
                                     <moduleInfoSource>
                                         module ShadedLibGDX {
@@ -137,9 +142,9 @@
                                             exports com.badlogic.gdx.maps.tiled.renderers;
                                             exports com.badlogic.gdx.graphics;
                                             exports com.badlogic.gdx.graphics.g2d;
-                                            exports com.badlogic.gdx.backends.lwjgl3;
                                             exports com.badlogic.gdx.graphics.glutils;
                                             exports com.badlogic.gdx.backends;
+                                            exports com.badlogic.gdx.backends.lwjgl3;
                                             exports com.badlogic.gdx.backends.headless;
                                         }
                                     </moduleInfoSource>
