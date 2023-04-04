@@ -6,7 +6,7 @@
 
     <groupId>dk.sdu.sesem4</groupId>
     <artifactId>shadedlibgdx</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
     <name>shadedlibgdx</name>
 
@@ -125,7 +125,7 @@
                                     <artifact>
                                         <groupId>dk.sdu.sesem4</groupId>
                                         <artifactId>shadedlibgdx</artifactId>
-                                        <version>1.0.2</version>
+                                        <version>1.0.3</version>
                                     </artifact>
                                     <moduleInfoSource>
                                         module ShadedLibGDX {
