@@ -13,7 +13,7 @@ jobs:
     - name: Set up JDK 
       uses: actions/setup-java@v3
       with:
-        java-version: 13
+        java-version: 18
     - name: Build library
       env:
         SECRET_USER_NAME: ${{ secrets.SECRET_USER_NAME }}
