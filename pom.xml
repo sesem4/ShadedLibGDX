@@ -125,7 +125,7 @@
                                     <artifact>
                                         <groupId>dk.sdu.sesem4</groupId>
                                         <artifactId>shadedlibgdx</artifactId>
-                                        <version>1.0.1-SNAPSHOT</version>
+                                        <version>1.0.0</version>
                                     </artifact>
                                     <moduleInfoSource>
                                         module com.badlogic.gdx {
