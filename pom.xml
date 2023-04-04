@@ -6,7 +6,7 @@
 
     <groupId>dk.sdu.sesem4</groupId>
     <artifactId>shadedlibgdx</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
     <name>shadedlibgdx</name>
 
@@ -125,10 +125,10 @@
                                     <artifact>
                                         <groupId>dk.sdu.sesem4</groupId>
                                         <artifactId>shadedlibgdx</artifactId>
-                                        <version>1.0.1</version>
+                                        <version>1.0.2</version>
                                     </artifact>
                                     <moduleInfoSource>
-                                        module com.badlogic.gdx {
+                                        module ShadedLibGDX {
                                             requires java.desktop;
                                             requires jdk.unsupported;
                                             exports com.badlogic.gdx;
@@ -139,6 +139,8 @@
                                             exports com.badlogic.gdx.graphics.g2d;
                                             exports com.badlogic.gdx.backends.lwjgl3;
                                             exports com.badlogic.gdx.graphics.glutils;
+                                            exports com.badlogic.gdx.backends;
+                                            exports com.badlogic.gdx.backends.headless;
                                         }
                                     </moduleInfoSource>
                                 </module>
