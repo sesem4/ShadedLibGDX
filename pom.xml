@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dk.sdu.mmmi.cbse</groupId>
+    <groupId>dk.sdu.sesem4</groupId>
     <artifactId>shadedlibgdx</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>shadedlibgdx</name>
 
@@ -21,8 +21,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub sweat-tek Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/sweat-tek/ShadedLibGDX</url>
+            <name>GitHub sesem4 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/sesem4/ShadedLibGDX</url>
         </repository>
     </distributionManagement>
 
@@ -123,18 +123,19 @@
                             <modules>
                                 <module>
                                     <artifact>
-                                        <groupId>dk.sdu.mmmi.cbse</groupId>
+                                        <groupId>dk.sdu.sesem4</groupId>
                                         <artifactId>shadedlibgdx</artifactId>
                                         <version>1.0.1-SNAPSHOT</version>
                                     </artifact>
                                     <moduleInfoSource>
                                         module com.badlogic.gdx {
-                                        requires java.desktop;
-                                        requires jdk.unsupported;
-                                        exports com.badlogic.gdx;
-                                        exports com.badlogic.gdx.graphics;
-                                        exports com.badlogic.gdx.backends.lwjgl3;
-                                        exports com.badlogic.gdx.graphics.glutils;
+                                            requires java.desktop;
+                                            requires jdk.unsupported;
+                                            exports com.badlogic.gdx;
+                                            exports com.badlogic.gdx.maps;
+                                            exports com.badlogic.gdx.graphics;
+                                            exports com.badlogic.gdx.backends.lwjgl3;
+                                            exports com.badlogic.gdx.graphics.glutils;
                                         }
                                     </moduleInfoSource>
                                 </module>

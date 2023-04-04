@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>dk.sdu.mmmi.cbse</groupId>
+  <groupId>dk.sdu.sesem4</groupId>
   <artifactId>shadedlibgdx</artifactId>
   <name>shadedlibgdx</name>
   <version>1.0.1-SNAPSHOT</version>
@@ -52,7 +52,7 @@
               <modules>
                 <module>
                   <artifact>
-                    <groupId>dk.sdu.mmmi.cbse</groupId>
+                    <groupId>dk.sdu.sesem4</groupId>
                     <artifactId>shadedlibgdx</artifactId>
                     <version>1.0.1-SNAPSHOT</version>
                   </artifact>
@@ -81,8 +81,8 @@
   <distributionManagement>
     <repository>
       <id>github</id>
-      <name>GitHub sweat-tek Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/sweat-tek/ShadedLibGDX</url>
+      <name>GitHub sesem4 Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/sesem4/ShadedLibGDX</url>
     </repository>
   </distributionManagement>
   <properties>
